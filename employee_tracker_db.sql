@@ -30,7 +30,7 @@ CREATE TABLE department (
 INSERT INTO
     employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ("John", "Brown", "1"),
+    ("John", "Brown", "1", "2"),
     ("Jim", "Green", "2", "1"),
     ("Jason", "Roberts", "3", "1"),
     ("Ted", "Olsen", "4", "3"),
