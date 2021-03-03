@@ -57,13 +57,13 @@ ORDER BY
 INSERT INTO
     role (title, salary, department_id)
 VALUES
-    ("Backend Developer", "95000", "1"),
-    ("CPA", "60000", "2"),
-    ("Sales Rep", "55000", "3"),
+    ("Backend Developer", "95000", "2"),
+    ("CPA", "60000", "5"),
+    ("Sales Rep", "55000", "1"),
     ("Lead Trainer", "60000", "4"),
-    ("Front End Developer", "85000", "5"),
-    ("CEO", "100000", "6"),
-    ("HR Specialist", "52000", "7");
+    ("Front End Developer", "85000", "2"),
+    ("CEO", "100000", "7"),
+    ("HR Specialist", "52000", "3");
 
 INSERT INTO
     department (name)
@@ -73,7 +73,8 @@ VALUES
     ("HR"),
     ("Training"),
     ("Accounting"),
-    ("Design");
+    ("Design"),
+    ("Management");
 
 SELECT
     r.id,
