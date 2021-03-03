@@ -21,7 +21,7 @@ var connection = mysql.createConnection({
     database: "employee_tracker_db"
   });
 
-  figlet('FSC Employee Tracker', (err, result) => {
+  figlet('Employee Tracker', (err, result) => {
     console.log(err || result);
   });
 
@@ -341,7 +341,7 @@ updateSomething = () => {
       updateEmployeeManager();
     }
     else if(answer.update === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using the Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
@@ -491,7 +491,7 @@ deleteSomething = () => {
     else if (answer.delete === "Delete employee") {
       deleteEmployee();
     } else if(answer.delete === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using the Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
