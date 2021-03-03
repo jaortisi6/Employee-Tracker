@@ -57,7 +57,7 @@ var connection = mysql.createConnection({
           deleteSomething();
         }
         else if (answer.choices === "EXIT") {
-          figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+          figlet('Thanks for using the Employee Tracker', (err, result) => {
             console.log(err || result);
           });
         
@@ -123,7 +123,7 @@ addSomething = () => {
       addEmployee();
     } 
     else if (answer.add === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using the Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
@@ -278,7 +278,7 @@ viewSomething = () => {
       viewEmployees();
     }
     else if (answer.viewChoice === "EXIT") {
-      figlet('Thanks for using FSC Employee Tracker', (err, result) => {
+      figlet('Thanks for using the Employee Tracker', (err, result) => {
         console.log(err || result);
       });
 
