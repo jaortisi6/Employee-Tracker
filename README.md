@@ -6,11 +6,11 @@ This application allows a user to manage a company's employees using node, inqui
 
 ### Screenshots
 
-![Screenshot1](Employee-Tracker\Screenshots\Screenshot1.PNG)
-![Screenshot2](Employee-Tracker\Screenshots\Screenshot2.PNG)
-![Screenshot3](Employee-Tracker\Screenshots\Screenshot3.PNG)
-![Screenshot4](Employee-Tracker\Screenshots\Screenshot4.PNG)
-![Screenshot5](Employee-Tracker\Screenshots\Screenshot5.PNG)
+![Screenshot1](/Employee-Tracker/Screenshots/Screenshot1.PNG)
+![Screenshot2](/Employee-Tracker/Screenshots/Screenshot2.PNG)
+![Screenshot3](/Employee-Tracker/Screenshots/Screenshot3.PNG)
+![Screenshot4](/Employee-Tracker/Screenshots/Screenshot4.PNG)
+![Screenshot5](/Employee-Tracker/Screenshots/Screenshot5.PNG)
 
 ## Installation
 
